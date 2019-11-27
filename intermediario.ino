@@ -1,6 +1,4 @@
 //esse codigo foi adaptado desse site aqui:
-//https://howtomechatronics.com/tutorials/arduino/how-to-build-an-arduino-wireless-network-with-multiple-nrf24l01-modules/
-//os cara mandaram bem :)
 #include <pt.h>
 #include <RF24Network.h>
 #include <RF24.h>
@@ -47,7 +45,6 @@ void enviando_thread2(int interval) {
  //Repassa o dado
     
      ok = network.write(headerOut, &incomingData, sizeof(incomingData));
-
 }
 
 void loop() {
