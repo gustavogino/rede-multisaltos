@@ -6,7 +6,7 @@
 RF24 radio(7, 8);               //Cria um objeto RF24 chamado radio, 7 e 8 são os pinos CE e CSN
 RF24Network network(radio);      //Cria uma network e adiciona o objeto radio na mesma
 
-const uint16_t self = 01; //Endereço deste nodo em octal
+const uint16_t self = 02; //Endereço deste nodo em octal
 const uint16_t next_node = 00; //Endereço em octal do nodo que receberá a mensagem
 
 const unsigned long intervalo = 2000; 
