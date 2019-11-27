@@ -1,6 +1,6 @@
 //esse codigo foi adaptado desse site aqui:
 //https://howtomechatronics.com/tutorials/arduino/how-to-build-an-arduino-wireless-network-with-multiple-nrf24l01-modules/
-//os cara mandaram bem :)
+
 
 #include <RF24Network.h>
 #include <RF24.h>
